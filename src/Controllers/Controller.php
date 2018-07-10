@@ -10,4 +10,7 @@ class Controller extends BaseController
 {
     public $namespace = 'Locale'; // registered in Service Provider
 
+    public function home(){
+        return 'Home';
+    }
 }
