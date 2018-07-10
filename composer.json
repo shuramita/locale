@@ -1,0 +1,24 @@
+{
+    "name": "shuramita/locale",
+    "description": "Description",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Tam Nguyen",
+            "email": "minhtamtt@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Shuramita\\Locale\\": "src/"
+        },
+        "files": ["src/Helpers/Helper.php"]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Shuramita\\Locale\\LocaleServiceProvider"
+            ]
+        }
+    }
+}
